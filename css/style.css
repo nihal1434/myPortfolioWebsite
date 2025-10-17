@@ -354,6 +354,7 @@ textarea {
     padding: 4rem 0;
 
   }
+ 
 }
 
 .text-primary {
@@ -400,24 +401,20 @@ textarea {
     height: unset;
     min-height: unset;
   }
-  
-
 }
 
 @media only screen and (max-width: 56.25em) {
   .learnmore {
     top: 85%;
-  }
- 
-
-  
+  }  
 }
 
 
 
 @media only screen and (max-width: 37.5em) {
   .home-hero__content {
-    padding: 10rem 0 10rem 0;
+    padding: 14rem 1rem 10rem;
+    width: 98%;
     margin: auto;
     position: relative;
     transform: translate(0, 0);
@@ -432,7 +429,7 @@ textarea {
 }
 
 .home-hero__cta {
-  padding-top: 15rem;
+  padding-top: 12rem;
   align-self: flex-end;
   padding-right: 30rem;
 
