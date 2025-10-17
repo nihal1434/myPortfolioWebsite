@@ -643,7 +643,7 @@ textarea {
 }
 
 .project-details__content {
-  padding: 8rem 0;
+  padding: 4rem 0 3rem;
   max-width: 90rem;
   margin: auto;
 }
@@ -674,7 +674,7 @@ textarea {
 .project-details__content-main {
   width: 100%;
   max-width: 70rem;
-  margin: auto;
+  margin: 0;
 }
 
 .project-details__desc {
