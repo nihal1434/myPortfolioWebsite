@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/avatar.jpg"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Nihal</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hey, My name is <span class="namespan">Nihal</span> </h1>
+          <p class="text-primary home-hero__info">
+            I am a <strong> Frontend Developer</strong> from Srinagar, India —
+            turning ideas into <strong>elegant</strong> ,<strong
+              >accessible</strong
+            >
+            , and <strong>high-performing UI/UX web experiences.</strong>
+          </p>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="next-section"
+            >See my projects <span class="inspan"> > </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            All my projects include links to the code and live version. Click
+            the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <h3 class="projects__row-content-title">Quiz App</h3>
+              <img
+                src="./assets/img/quiz.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <a href="./Pages/project-1.html" class="learnmore">Learn more ></a>
+              <p class="projects__row-content-desc">
+                Quizzical is a simple quiz app that lets you select alternatives
+                and then gives you a score. It's built with functional React
+                components.
+              </p>
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <h3 class="projects__row-content-title">Personal Dashboard</h3>
+              <img
+                src="./assets/img/dashboard.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <a href="./Pages/project-2.html" class="learnmore">Learn more ></a>
+              <p class="projects__row-content-desc">
+                A Chrome Extension that gives you an overview over the current
+                time, how the weather is like and how Dogecoin is performing.
+                Interacts with multiple APIs using async JS.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <h3 class="projects__row-content-title">Password Generator</h3>
+
+              <img
+                src="./assets/img/password.jpg"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <a href="./Pages/project-3.html" class="learnmore">Learn more ></a>
+              <p class="projects__row-content-desc">
+                An app that generates random passwords based on a few user
+                inputs, e.g. length, types of characters, etc. Built with HTML,
+                CSS, and vanilla JavaScript.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>
+              Frontend Developer exploring the  <em>how</em>  behind seamless digital
+              experiences. I blend UI/UX thinking with modern web technologies
+              like React and Tailwind CSS to create interfaces that not only
+              work fast but also feel right.
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Tailwind CSS</div>
+              <div class="skills__skill">Jasmine</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="contact">
+      <div class="foot">
+        <h2>Contact</h2>
+        <div class="main-footer__social-cont">
+          <a target="_blank" rel="noreferrer" href="mailto:nihalonly772@gmail.com" class="social-icon">
+            <img
+              class="main-footer__icon main-footer__icon--mr-none"
+              src="./assets/img/envelope_481658.png"
+              alt="icon"
+            />
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/feed/" class="social-icon">
+            <img
+              class="main-footer__icon"
+              src="./assets/img/linkedin-ico.png"
+              alt="icon"
+            />
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/nihal1434" class="social-icon">
+            <img
+              class="main-footer__icon"
+              src="./assets/img/github-ico.png"
+              alt="icon"
+            />
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://x.com/NameisKurosaki" class="social-icon">
+            <img
+              class="main-footer__icon"
+              src="./assets/img/twitter-ico.png"
+              alt="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
