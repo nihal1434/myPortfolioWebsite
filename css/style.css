@@ -173,7 +173,7 @@ a:focus{
 
 .heading-primary {
   margin-left: -15rem;
-  padding-top: 9rem;
+  padding-top: 5rem;
   font-weight: 600;
   font-size: 6.25rem;
   text-transform: uppercase;
@@ -760,7 +760,6 @@ strong{
   }
 
   .heading-primary {
-    width: 95svw;
     margin: 0;
     line-height: 1.4;
     margin-bottom: 1.5rem;
@@ -859,6 +858,9 @@ strong{
   .project-cs-hero {
     height: unset;
     min-height: unset;
+  }
+   .namespans{
+    display: unset;
   }
 
   .project-cs-hero__content {
