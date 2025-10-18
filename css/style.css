@@ -172,10 +172,10 @@ a:focus{
 }
 
 .heading-primary {
-  margin-left: -10rem;
+  margin-left: -12rem;
   padding-top: 7rem;
   font-weight: 600;
-  font-size: 6.25rem;
+  font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: left;
@@ -398,6 +398,8 @@ strong{
 
 .namespan {
   display: block;
+  font-weight: 600;
+  font-size: 7rem;
 }
 
 .about__content-title {
@@ -541,9 +543,7 @@ strong{
   max-width: 70rem;
   margin: 0;
 }
- .namespans{
-    display: block;
-  }
+ 
 .project-details__desc {
   margin: 0 0 7rem 0;
 }
@@ -847,6 +847,9 @@ strong{
   }
   .heading-sec__main {
     text-align: start;
+  }
+  .namespan{
+    font-size: 5.25rem;
   }
 
   .heading-primary {
