@@ -50,7 +50,7 @@ li {
 }
 
 input:focus,
-a:focus{
+a:focus {
   outline: none;
 }
 
@@ -75,6 +75,7 @@ a:focus{
   cursor: pointer;
   color: #333;
   transition: color .3s;
+  margin: 1.5rem 0;
 }
 
 .header__logo-container:hover {
@@ -104,9 +105,10 @@ a:focus{
   font-weight: 500;
   letter-spacing: .5px;
 }
+
 .header__main-ham-menu-cont {
-    display: none;
-  }
+  display: none;
+}
 
 .header__sm-menu {
   background: #fff;
@@ -168,7 +170,7 @@ a:focus{
 }
 
 .header__link:hover {
-  color:#1E90FF;
+  color: #1E90FF;
 }
 
 .heading-primary {
@@ -358,6 +360,10 @@ a:focus{
   display: none;
 }
 
+.exit {
+  display: none;
+}
+
 .home-hero {
   background: #cedff0;
   background: linear-gradient(132deg, #cedff0 0%, #e7f0fd 100%);
@@ -371,9 +377,11 @@ a:focus{
   align-items: center;
   justify-content: center;
 }
-strong{
+
+strong {
   font-weight: 600;
 }
+
 .home-hero__info {
   color: #242323;
   font-size: 2.5rem;
@@ -543,7 +551,7 @@ strong{
   max-width: 70rem;
   margin: 0;
 }
- 
+
 .project-details__desc {
   margin: 0 0 7rem 0;
 }
@@ -706,11 +714,12 @@ strong{
   html {
     font-size: 56%;
   }
- 
+
   .header__main-ham-menu-cont {
-    width: 3rem;
-    padding: 2.2rem 0;
+    /* width: 3rem; */
+    /* padding: 2.2rem 0; */
   }
+
 
   .header__main-ham-menu {
     width: 100%;
@@ -807,7 +816,9 @@ strong{
     width: 3rem;
     height: 3rem;
   }
-
+ .open{
+    width: 3em;
+  }
   .contact {
     padding: 1em;
 
@@ -845,10 +856,12 @@ strong{
   .header__logo-sub {
     font-size: 2rem;
   }
+
   .heading-sec__main {
     text-align: start;
   }
-  .namespan{
+
+  .namespan {
     font-size: 5.25rem;
   }
 
@@ -885,7 +898,7 @@ strong{
     transform: translate(0, 0);
   }
 
-  .home-hero__info{
+  .home-hero__info {
     width: 90%;
     padding: 0;
     font-size: 2.2rem;
@@ -932,8 +945,58 @@ strong{
     display: block;
   }
 
-  .header__links {
+  .header__content {
+    overflow: hidden;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
     display: none;
+    margin-top: 1.2rem;
+    border-bottom: 2px solid #e6eef7 ;
+    /* background-color: #ffffff; */
+  }
+
+  .exit {
+    display: unset;
+    width: 3em;
+    float: right;
+    margin: 1.5em;
+    margin-right: 1.75em;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+
+  .header__links a {
+    display: block;
+    text-decoration: none;
+    padding: 2.5rem 3rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 2px solid #e6eef7;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color .3s;
+  }
+
+  .header__link:hover {
+    color: #1E90FF;
+    font-weight: 600;
+    background-color: #c2d9f2;
+  }
+
+  .header__links {
+    flex-direction: column;
+
+    /* display: none; */
   }
 
   .project-details__links-btn:last-child {
@@ -984,4 +1047,10 @@ strong{
     opacity: 0;
     top: 27px;
   }
+}
+.open-nav{
+  display: flex;
+}
+.menu-btn{
+  display: none;
 }

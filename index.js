@@ -5,6 +5,20 @@ const headerHamMenuBtn = document.querySelector(".header__main-ham-menu");
 const headerHamMenuCloseBtn = document.querySelector(".header__main-ham-menu-close");
 const headerSmallMenuLinks = document.querySelectorAll(".header__sm-menu-link");
 
+const menuBtn = document.getElementById("menu-btn")
+const closeBtn = document.getElementById("close-btn")
+const nav = document.getElementById("nav")
+const hamMenu = document.getElementById("ham-menu")
+menuBtn.addEventListener("click",()=>{
+  nav.classList.add("open-nav")
+  hamMenu.classList.add("menu-btn")
+})
+closeBtn.addEventListener("click",()=>{
+  nav.classList.remove("open-nav")
+  hamMenu.classList.remove("menu-btn")
+
+})
+
 hamMenuBtn.addEventListener("click", () => {
   if (smallMenu.classList.contains("header__sm-menu--active")) {
     smallMenu.classList.remove("header__sm-menu--active");
