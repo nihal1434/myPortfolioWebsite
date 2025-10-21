@@ -139,14 +139,28 @@ a:focus {
 }
 
 .home-hero {
-  background: #cedff0;
-  background: linear-gradient(132deg, #cee1f4 0%, #dee9f7 100%);
+  position: relative;
+  /* background: #cedff0;
+  background: linear-gradient(132deg, #cee1f4 0%, #dee9f7 100%); */
   color: #242323;
   height: 100svh;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.home-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(132deg, rgba(206, 225, 244, 0.7), rgba(222, 233, 247, 0.7)),
+    url("/assets/img/bg2.jpg") no-repeat center center/cover;
+  opacity: 0.45;
+  /* works separately */
+  z-index: -1;
+
 }
 
 .inspan {
@@ -660,6 +674,12 @@ strong {
 
   .exit {
     display: none;
+  }
+
+  .home-hero::before {
+    background:
+      linear-gradient(132deg, rgba(206, 225, 244, 0.7), rgba(222, 233, 247, 0.7)),
+      url("/assets/img/bg1.jpg") no-repeat center center/cover;
   }
 
   .projects__row {
