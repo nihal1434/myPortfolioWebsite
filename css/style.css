@@ -140,8 +140,6 @@ a:focus {
 
 .home-hero {
   position: relative;
-  /* background: #cedff0;
-  background: linear-gradient(132deg, #cee1f4 0%, #dee9f7 100%); */
   color: #242323;
   height: 100svh;
   width: 100vw;
@@ -157,7 +155,7 @@ a:focus {
   background:
     linear-gradient(132deg, #c9def1, #d7e4f6b3),
     url("/assets/img/bg2.jpg") no-repeat center center/cover;
-  opacity: 0.5;
+  opacity: .75;
   z-index: -1;
 
 }
@@ -208,14 +206,6 @@ a:focus {
   text-align: center;
 }
 
-.heading-sec__main--lt {
-  color: #fff;
-}
-
-.heading-sec__main--lt::after {
-  content: '';
-  background: #fff !important;
-}
 
 .heading-sec__sub {
   display: block;
