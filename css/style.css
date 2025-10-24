@@ -26,7 +26,6 @@ WHY DOES NESTING CSS CLASSES WORK HERE??????
 }
 
 html {
-  
   background: #e6eef7;
   background: linear-gradient(132deg, #e6eef7 0%, #ebf2ff 100%);
   font-size: 62.5%;
@@ -158,8 +157,6 @@ a:focus {
     url("/assets/img/bg2.jpg") no-repeat center center/cover;
   opacity: .75;
   z-index: -1;
-/*   background: linear-gradient(132deg, #cedff0 0%, #e7f0fd 100%);
- */
 }
  .home-hero__content{
     margin-left: -16rem;
@@ -187,6 +184,7 @@ a:focus {
   padding-top: 10rem;
 }
 
+
 .heading-sec__mb-bg {
   margin-bottom: 7rem;
 }
@@ -199,11 +197,11 @@ a:focus {
   color: #242323;
   font-weight: 600;
   display: block;
-  font-size: 4rem;
+  font-size: 4.5rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: left;
-  margin-bottom: 3.5rem;
+  margin-bottom: .25rem;
   position: relative;
   text-align: center;
 }
@@ -211,18 +209,15 @@ a:focus {
 
 .heading-sec__sub {
   display: block;
-  text-align: left;
-  color: #444;
+  text-align: center;
+  color: #484848;
   letter-spacing: 1px;
-  font-size: 1.75rem;
+  font-size: 2.15rem;
   font-weight: 400;
   max-width: 80rem;
   margin: auto;
+  margin-bottom: 8rem;
   line-height: 1.6;
-}
-
-.heading-sec__sub--lt {
-  color: #eee;
 }
 
 .heading-sm {
@@ -230,6 +225,7 @@ a:focus {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 
 .main-container {
   max-width: 120rem;
@@ -418,7 +414,7 @@ strong {
 
 .projects__row-content-desc {
   margin-bottom: 3rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: #444;
   max-width: 60rem;
   line-height: 1.7;
@@ -624,7 +620,7 @@ strong {
   font-size: 1.6rem;
   background: #99999933;
   border-radius: 5px;
-  font-weight: 400;
+  font-weight: 500;
   color: #242323;
   letter-spacing: .5px;
 }
@@ -687,6 +683,7 @@ strong {
   }
 
   .learnmore {
+    font-size: 1.65rem;
     top: 85%;
   }
 
@@ -721,10 +718,26 @@ strong {
     margin: 0;
     line-height: 1.4;
     margin-bottom: 1.5rem;
+
   }
 
   .heading-sec__mb-med {
     margin-bottom: 3rem;
+    text-align: start;
+  }
+  .heading-sec__main {
+    margin-bottom: .5rem;
+    text-align: start;
+  }
+  .about__content-title{
+    text-align: start;
+  }
+  .skills {
+    justify-content: flex-start;
+    width: 90%;
+  }
+  .heading-sec__sub {
+    font-size: 2.05rem;
     text-align: start;
   }
 
@@ -775,9 +788,7 @@ strong {
     justify-content: space-between;
   }
 
-  .heading-sec__main {
-    margin-bottom: .5rem;
-  }
+  
 
   .about__content {
     grid-template-columns: 1fr;
@@ -871,16 +882,18 @@ strong {
   }
 
   .heading-sec__sub {
-    font-size: 1.8rem;
+    font-size: 1.95rem;
+  }
+  .learnmore{
+    font-style: 1.5rem;
+    top: 87%;
   }
 
   .foot {
     gap: 1rem;
   }
 
-  .skills {
-    justify-content: flex-start;
-  }
+  
 
   nav {
     position: fixed;
@@ -960,7 +973,7 @@ strong {
   }
 
   .projects__row-content-desc {
-    font-size: 1.7rem;
+    font-size: 1.75rem;
   }
 
 }
