@@ -71,7 +71,7 @@ a:focus {
   display: flex;
   align-items: center;
   cursor: pointer;
-  color: #333;
+  color: #242323;
   transition: color .3s;
   margin: 1.35rem 0;
 }
@@ -105,24 +105,22 @@ a:focus {
   font-size: 2.1rem;
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: .75px;
 }
 
 .header__links {
   display: flex;
 }
-
 .header__link {
   padding: 2.2rem 3rem;
   display: inline-block;
   font-size: 1.85rem;
   color: #242323;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: .75px;
   font-weight: 500;
   transition: color .3s;
 }
-
 .header__link:hover {
   color: #1E90FF;
 }
@@ -132,10 +130,14 @@ a:focus {
   font-weight: 600;
   font-size: 6rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   text-align: left;
   line-height: 1.4;
   margin-bottom: 2rem;
+}
+.namespan {
+  display: block;
+  font-weight: 700;
 }
 
 .home-hero {
@@ -185,7 +187,6 @@ a:focus {
   padding-top: 10rem;
 }
 
-
 .heading-sec__mb-bg {
   margin-bottom: 7rem;
 }
@@ -200,7 +201,7 @@ a:focus {
   display: block;
   font-size: 4.5rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: .75px;
   text-align: left;
   position: relative;
   text-align: center;
@@ -355,12 +356,6 @@ strong {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10rem;
-}
-
-.namespan {
-  display: block;
-  font-weight: 600;
-  font-size: 6rem;
 }
 
 .about__content-title {
@@ -706,6 +701,7 @@ strong {
   }
 
   .heading-primary {
+    padding-top: 6rem;
     margin: 0;
     line-height: 1.4;
     margin-bottom: 1.5rem;
@@ -889,8 +885,8 @@ strong {
     top: 0;
     right: 0;
     width: 100vw;
-    display: flex;
     flex-direction: column;
+    display: flex;
     display: none;
     margin-top: .5rem;
     border-bottom: 3px solid #e6eef7;
@@ -900,7 +896,7 @@ strong {
     display: unset;
     width: 3.25em;
     float: right;
-    margin: 1.5em;
+    margin: 1.52em;
     margin-right: 1.75em;
     cursor: pointer;
     align-self: flex-end;
