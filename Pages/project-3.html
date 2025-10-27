@@ -15,61 +15,64 @@
     />
   </head>
   <body>
- <header class="header">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="../assets/img/avatar.jpg"
-              alt="Nihal Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <p class="header__logo-sub">Nihal</p>
-        </div>
-        <div  id="ham-menu">
+    <header class="header">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
           <img
-            src="../assets/svg/ham-menu.svg"
-            alt="hamburger menu"
-            class="open hm"
-            id="menu-btn"
+            src="../assets/img/avatar.jpg"
+            alt="Nihal Logo Image"
+            class="header__logo-img"
           />
         </div>
-        <nav class="header__main" id="nav">
-          <img
-            src="../assets/svg/ham-menu-close.svg"
-            alt="hamburger menu close"
-            class="exit hm"
-            id="close-btn"
-          />
-          <ul class="header__links">
-            <li>
-              <a href="../index.html" class="header__link"> Home </a>
-            </li>
-            <li>
-              <a href="../index.html#projects" class="header__link">
-                Projects
-              </a>
-            </li>
-            <li>
-              <a href="../index.html#about" class="header__link">About </a>
-            </li>
-            <li>
-              <a href="../index.html#contact" class="header__link"> Contact </a>
-            </li>
-          </ul>
-        </nav>
+        <p class="header__logo-sub">Nihal</p>
+      </div>
+      <div id="ham-menu">
+        <img
+          src="../assets/svg/ham-menu.svg"
+          alt="hamburger menu"
+          class="open hm"
+          id="menu-btn"
+        />
+      </div>
+      <nav class="header__main" id="nav">
+        <img
+          src="../assets/svg/ham-menu-close.svg"
+          alt="hamburger menu close"
+          class="exit hm"
+          id="close-btn"
+        />
+        <ul class="header__links">
+          <li>
+            <a href="../index.html" class="header__link"> Home </a>
+          </li>
+          <li>
+            <a href="../index.html#projects" class="header__link"> Projects </a>
+          </li>
+          <li>
+            <a href="../index.html#about" class="header__link">About </a>
+          </li>
+          <li>
+            <a href="../index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary projecth">Project 1</h1>
+        <h1 class="heading-primary">personal-dashboard</h1>
 
         <p class="text-primary home-hero__info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-          in numquam incidunt earum quaerat cum fuga, atque similique natus
-          nobis sit.
-          <a href="#" target="_blank" class="livelink"
-            >Live Link
+          A Chrome Extension that displays the current time, local weather,
+          inspirational quotes, your latest GitHub repositories, and a dynamic
+          background image from Unsplash — all fetched using modern asynchronous
+          JavaScript.
+          <a
+            href="https://github.com/nihal1434/personal-dashboard"
+            target="_blank"
+            class="livelink"
+          >
+            Source Code
             <img src="../assets/img/external-link.png" class="externallink" />
           </a>
         </p>
@@ -80,58 +83,83 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="../assets/img/quiz.jpg"
+              src="../assets/img/dashboard.webp"
               alt="Project Image"
               class="project-details__showcase-img"
             />
           </div>
-          <div class="project-details__content-main">
+          <div>
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
+
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Neque alias tenetur minus quaerat
-                aliquid, aut provident blanditiis, deleniti aspernatur ipsam
-                eaque veniam voluptatem corporis vitae mollitia laborum corrupti
-                ullam rem?
+                <strong>Personal Dashboard</strong> is a custom Chrome extension
+                that transforms your new tab into a personalized workspace —
+                showing the current time, local weather, inspirational quotes,
+                your latest GitHub repositories, and a dynamic Unsplash
+                background.
               </p>
+
               <p class="project-details__desc-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                alias tenetur minus quaerat aliquid, aut provident blanditiis,
-                deleniti aspernatur ipsam eaque veniam voluptatem corporis vitae
-                mollitia laborum corrupti ullam rem?
+                Built using <strong>async/await</strong>,
+                <strong>REST APIs</strong>, and <strong>Manifest V3</strong>, it
+                highlights strong front-end development skills in API
+                integration, DOM manipulation, and real-time data rendering.
               </p>
+
+              <ul
+                class="project-details__desc-para"
+                style="margin-left: 1.25rem; line-height: 1.6"
+              >
+                <li>🌤️ Real-time weather via OpenWeatherMap</li>
+                <li>🧠 Inspirational quotes from ZenQuotes</li>
+                <li>💻 Latest GitHub repos display</li>
+                <li>🕒 Live clock with smooth updates</li>
+                <li>
+                  🌄 Dynamic Unsplash background with clickable author credit
+                </li>
+              </ul>
             </div>
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
-              <div class="skills">
+              <h3 class="project-details__content-title">
+                Tools & Technologies Used
+              </h3>
+              <div class="pskills">
                 <div class="skills__skill">HTML</div>
                 <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">React</div>
-                <div class="skills__skill">Tailwind CSS</div>
-                <div class="skills__skill">GIT</div>
-                <div class="skills__skill">Google ADS</div>
-                <div class="skills__skill">Facebook Ads</div>
-                <div class="skills__skill">Android</div>
-                <div class="skills__skill">IOS</div>
+                <div class="skills__skill">JavaScript (ES6+)</div>
+                <div class="skills__skill">Chrome Extensions (Manifest V3)</div>
+                <div class="skills__skill">Async/Await</div>
+                <div class="skills__skill">REST APIs</div>
+                <div class="skills__skill">Unsplash API</div>
+                <div class="skills__skill">OpenWeatherMap API</div>
+                <div class="skills__skill">ZenQuotes API</div>
+                <div class="skills__skill">GitHub API</div>
+                <div class="skills__skill">Git & GitHub</div>
               </div>
             </div>
+
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
-              <div class="links">
-              <a href="#" target="_blank" class="livelink"
-                >Live Link
-                <img src="../assets/img/external-link.png" class="externallink" />
-              </a>
-              <a href="#" target="_blank" class="livelink"
-                >Code Link
-                <img src="../assets/img/link.png" class="externallink" />
-              </a>
-              </div>
+                <a
+                  href="https://chrome.google.com/webstore"
+                  target="_blank"
+                  class="livelink"
+                >
+                  Live Extension (Coming Soon)
+                  <img
+                    src="../assets/img/external-link.png"
+                    class="externallink"
+                  />
+                </a>
+                <a
+                  href="https://github.com/nihal1434/personal-dashboard"
+                  target="_blank"
+                  class="livelink"
+                >
+                  View Source Code
+                  <img src="../assets/img/link.png" class="externallink" />
+                </a>
             </div>
           </div>
         </div>
