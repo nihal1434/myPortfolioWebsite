@@ -608,7 +608,6 @@ strong {
   }
 
   .heading-primary {
-    padding-top: 6rem;
     margin: 0;
     line-height: 1.4;
     margin-bottom: 1.5rem;
@@ -720,6 +719,7 @@ strong {
   }
 
   .namespan {
+    font-weight: 600;
     font-size: 5.5rem;
   }
 
