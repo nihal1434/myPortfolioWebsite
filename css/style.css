@@ -210,7 +210,7 @@ a:focus {
 .project-details__desc-para {
   color: #484848;
   letter-spacing: .75px;
-  font-size: 2.05rem;
+  font-size: 2.1rem;
   font-weight: 400;
   margin: auto;
   line-height: 1.6;
@@ -287,18 +287,20 @@ a:focus {
   right: 0%;
 }
 
-.livelink {
+.livelink, .livelinkt{
   display: block;
   font-size: 1.65rem;
   letter-spacing: 1px;
   color: #0000EE;
   text-transform: uppercase;
   font-weight: 500;
+}
+.livelinkt{
   margin-top: 3rem;
 }
 
 .learnmore:hover,
-.livelink:hover {
+.livelink:hover,.livelinkt:hover {
   color: #1E90FF;
 }
 
@@ -471,15 +473,19 @@ strong {
   padding: 4rem 0 3rem;
   max-width: 90rem;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
-.project-details__content-title {
+.project-details__content-title ,.project-details__content-title-last{
   font-size: 3rem;
-  margin-bottom: 3rem;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: 1.2;
 }
+.project-details__content-title{
+  margin-bottom: 3rem;
+}
+
 
 .project-details__showcase-img-cont {
   width: 100%;
@@ -490,16 +496,8 @@ strong {
   width: 100%;
 }
 
-
-
-.project-details__desc {
-  margin: 0 0 7rem 0;
-}
-
-
-
-.project-details__tools-used {
-  margin: 0 0 7rem 0;
+.project-details__tools-used ,.project-details__desc{
+  margin-bottom: 7rem;
 }
 
 .project-details__tools-used-list {
@@ -522,15 +520,7 @@ strong {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 0;
 }
-
-
-
-.project-details__links:last-child h3 {
-  margin: 0;
-}
-
 
 .links {
   display: flex;
@@ -733,7 +723,7 @@ strong {
     font-size: 2rem;
   }
   .project-details__desc-para {
-    font-size: 1.85rem;
+    font-size: 1.95rem;
   }
 
   .main-footer__lower {
@@ -789,6 +779,10 @@ strong {
     width: 100svw;
     height: 100svh;
   }
+ .project-details__tools-used ,.project-details__desc{
+
+    margin-bottom: 5rem;
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -817,7 +811,7 @@ strong {
     min-height: unset;
   }
 
-  .project-details__content-title {
+  .project-details__content-title ,.project-details__content-title-last{
     font-size: 2.5rem;
   }
 
@@ -926,24 +920,12 @@ strong {
     flex-direction: column;
   }
 
-  .project-details__links-btn:last-child {
-    margin: 0;
-  }
-
   .project-details__links {
     align-items: start;
     flex-direction: column;
+    gap: 2rem;
   }
-
-
-
-  .projects__row-content-title {
-    font-size: 2.4rem;
-  }
-
-  .projects__row-content-desc {
-    font-size: 1.75rem;
-  }
+  
 
 }
 
