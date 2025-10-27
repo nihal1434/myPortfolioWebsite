@@ -208,7 +208,7 @@ a:focus {
 
 .project-details__desc-para {
   color: #484848;
-  letter-spacing: 1px;
+  letter-spacing: .75px;
   font-size: 2.05rem;
   font-weight: 400;
   margin: auto;
@@ -216,7 +216,6 @@ a:focus {
   margin-bottom: 2rem;
   display: block;
   text-align: left;
-  /* width: 90svw; */
 }
 
 .heading-sec__sub {
@@ -230,7 +229,17 @@ a:focus {
   margin: auto;
   line-height: 1.6;
 }
-
+.project_sub{
+  display: block;
+  text-align: start;
+  color: #484848;
+  letter-spacing: 1px;
+  font-size: 2.15rem;
+  font-weight: 400;
+  max-width: 80rem;
+  margin: auto;
+  line-height: 1.6;
+}
 .heading-sm {
   font-size: 2.2rem;
   text-transform: uppercase;
@@ -279,12 +288,12 @@ a:focus {
 
 .livelink {
   display: block;
-  font-size: 1.7rem;
+  font-size: 1.65rem;
   letter-spacing: 1px;
   color: #0000EE;
   text-transform: uppercase;
   font-weight: 500;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .learnmore:hover,
@@ -721,8 +730,14 @@ strong {
   }
 
   .heading-sec__sub {
-    font-size: 2.05rem;
+    font-size: 2rem;
     text-align: start;
+  }
+  .project_sub{
+    font-size: 2rem;
+  }
+  .project-details__desc-para {
+    font-size: 1.85rem;
   }
 
   .main-footer__lower {
@@ -918,12 +933,6 @@ strong {
   .project-details__links-btn:last-child {
     margin: 0;
   }
-
-  .project-details__links {
-    gap: 3rem;
-  }
-
-
 
   .project-details__links {
     align-items: start;
