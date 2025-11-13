@@ -606,6 +606,9 @@ strong {
   .header__link {
     padding: 3rem 1.8rem;
   }
+  .hm2{
+  padding: .5rem 0rem;
+}
 
   .heading-primary {
     margin: 0;
