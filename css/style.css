@@ -36,7 +36,7 @@ body {
   box-sizing: border-box;
   position: relative;
   line-height: 1.5;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -157,7 +157,7 @@ a:focus {
   font-weight: 600;
   font-size: 6rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-align: left;
   line-height: 1.4;
   margin-bottom: 2rem;
@@ -218,8 +218,9 @@ a:focus {
 }
 
 .inspan {
-  top: -65%;
-  right: -16%;
+  font-family: "Poppins", sans-serif;
+  top: -60%;
+  right: -20%;
   position: absolute;
   font-weight: 300;
   font-size: 6rem;
@@ -289,6 +290,7 @@ a:focus {
 }
 
 .learnmore {
+  font-family: "Poppins", sans-serif;
   font-size: 1.75rem;
   letter-spacing: 1px;
   color: #0000EE;
@@ -310,7 +312,7 @@ a:focus {
 }
 
 .livelinkt {
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .learnmore:hover,
@@ -566,6 +568,10 @@ strong {
       url("/assets/img/bg1.jpg") no-repeat center center/cover;
   }
 
+  .inspan {
+  top: -60%;
+  right: -16%;
+  }
   .projects__row {
     grid-template-columns: 1fr;
     grid-gap: 2rem;
