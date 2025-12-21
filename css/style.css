@@ -174,7 +174,6 @@ a:focus {
   max-width: 70rem;
   padding-right: 7rem;
   letter-spacing: 1px;
-  line-height: 1.6;
 }
 
 .home-hero__cta {
@@ -230,7 +229,7 @@ a:focus {
   max-width: 120rem;
   margin: auto;
   width: 92%;
-  padding-top: 7rem;
+  padding-top: 3.5rem;
 }
 
 .heading-sec__mb-bg,
@@ -245,8 +244,6 @@ a:focus {
   font-size: 4.5rem;
   text-transform: uppercase;
   letter-spacing: .75px;
-  text-align: left;
-  position: relative;
   text-align: center;
 }
 
@@ -261,7 +258,6 @@ a:focus {
   font-weight: 400;
   max-width: 80rem;
   margin: auto;
-  line-height: 1.6;
 }
 
 .project-details__desc-para {
@@ -347,14 +343,15 @@ strong {
 }
 
 .about {
-  padding-bottom: 7rem;
+  padding-bottom: 6rem;
+  padding-top: 2.5rem;
 }
 
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 2.5rem;
-  box-shadow: 1px 2px 6px #cedff0;
+  box-shadow: 2px 1px 6px 1px #cedff0;
   padding: 2em;
   margin-bottom: 7rem;
   border-radius: 1em;
@@ -385,7 +382,7 @@ strong {
   font-weight: 500;
   font-size: 2.8rem;
   letter-spacing: 1px;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: 1rem;
 }
 
@@ -420,7 +417,7 @@ strong {
   font-size: 3rem;
   font-weight: 500;
   letter-spacing: 1px;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .project-details__content-title {
@@ -592,7 +589,7 @@ strong {
   }
 
   .heading-sec__mb-bg {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
 
   .header__logo-img-cont {
@@ -618,7 +615,6 @@ strong {
 
   .heading-primary {
     margin: 0;
-    line-height: 1.4;
     margin-bottom: 1.5rem;
   }
 
@@ -627,7 +623,6 @@ strong {
   }
 
   .heading-sec__main {
-    margin-bottom: .5rem;
     text-align: start;
   }
 
@@ -699,6 +694,7 @@ strong {
 
   .about__content {
     grid-template-columns: 1fr;
+    margin-top: -3rem;
     grid-gap: 8rem;
   }
 
@@ -721,10 +717,6 @@ strong {
 
   .header__logo-sub {
     font-size: 2rem;
-  }
-
-  .heading-sec__main {
-    text-align: start;
   }
 
   .namespan {
