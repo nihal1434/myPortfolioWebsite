@@ -381,7 +381,7 @@ strong {
 .projects__row-content-title {
   font-weight: 500;
   font-size: 2.8rem;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   line-height: 1.25;
   margin-bottom: 1rem;
 }
@@ -548,7 +548,7 @@ strong {
 
 @media only screen and (max-width: 56.25em) {
   html {
-    font-size: 56%;
+    font-size: 55.5%;
   }
 
   .hm {
@@ -564,6 +564,9 @@ strong {
       linear-gradient(132deg, rgba(206, 225, 244, 0.7), rgba(222, 233, 247, 0.7)),
       url("/assets/img/bg1.jpg") no-repeat center center/cover;
   }
+  .projects__row-content-desc {
+  line-height: 1.45;
+}
 
   .inspan {
   top: -60%;
