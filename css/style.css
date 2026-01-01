@@ -256,14 +256,19 @@ a:focus {
   letter-spacing: 1px;
   font-size: 2.15rem;
   font-weight: 400;
-  max-width: 85rem;
+  max-width: 80rem;
 }
-
+.heading-sec__sub{
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-bottom: -2rem;
+}
 .project-details__desc-para {
   letter-spacing: .75px;
   margin-bottom: 2rem;
   font-size: 2.05;
   text-align: left;
+  max-width: 100%;
 }
 .project-details__desc-para li {
   font-size: 2rem;
