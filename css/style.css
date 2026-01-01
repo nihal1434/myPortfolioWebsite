@@ -262,7 +262,7 @@ a:focus {
   margin: 0 auto;
   margin-top: 1.5rem;
   margin-bottom: -2rem;
-  max-width: 80%;
+  max-width: 80rem;
 }
 .project-details__desc-para {
   letter-spacing: .75px;
