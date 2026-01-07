@@ -25,7 +25,7 @@ This website highlights my development skills, showcases projects, and includes 
 ---
 
 ## 🗂️ Folder Structure
-
+```
 root/
 ├── index.html
 ├── Pages/
@@ -40,7 +40,7 @@ root/
 ├── index.js
 └── README.md
 
-
+```
 ---
 
 ## 🧰 Tech Stack
